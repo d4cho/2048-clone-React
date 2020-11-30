@@ -12,7 +12,7 @@ const backdrop = (props) =>
   ) : props.showLost ? (
     <div className={classes.Backdrop} onClick={props.clicked}>
       <div className={classes.Text}>
-        <h1>You lost! You suck</h1>
+        <h1>You lost!</h1>
         <div>click NEW GAME</div>
       </div>
     </div>
