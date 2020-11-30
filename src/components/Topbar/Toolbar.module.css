@@ -1,0 +1,14 @@
+.Toolbar {
+  display: flex;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 50px;
+}
+
+.Score {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid blue;
+}
