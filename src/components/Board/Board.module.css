@@ -1,9 +1,18 @@
 .Cell {
-  border: 1px solid black;
-  width: 150px;
-  height: 150px;
+  border: 8px solid #bbada0;
+  width: 125px;
+  height: 125px;
   text-align: center;
-  line-height: 150px;
+  line-height: 125px;
+  color: #776e65;
+}
+
+@media (max-width: 600px) {
+  .Cell {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+  }
 }
 
 @keyframes tada {
@@ -50,82 +59,118 @@
 }
 
 .white {
-  background-color: white;
+  background-color: #eee4da;
 }
 
 .two {
-  background-color: #ffcccc;
+  background-color: #eee4da59;
   animation-name: tada;
   animation-duration: 0.5s;
-  font-size: 40px;
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .four {
-  background-color: #ff9999;
+  background-color: #eee1c9;
   animation-name: tada;
   animation-duration: 0.5s;
-  font-size: 40px;
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .eight {
-  background-color: #ff6666;
+  background-color: #f3b27a;
   animation-name: tada;
   animation-duration: 0.5s;
-  font-size: 40px;
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #f9f6f2;
 }
 
 .sixteen {
-  background-color: #ff5050;
+  background-color: #f69664;
   animation-name: tada;
   animation-duration: 0.5s;
-  font-size: 40px;
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #f9f6f2;
 }
 
 .thirtytwo {
-  background-color: #800000;
+  background-color: #f77c5f;
   animation-name: tada;
   animation-duration: 0.5s;
-  font-size: 40px;
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #f9f6f2;
 }
 
 .sixtyfour {
-  background-color: #0000ff;
+  background-color: #f75f3b;
   animation-name: tada;
   animation-duration: 0.5s;
-  font-size: 40px;
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #f9f6f2;
 }
 
 .onetwentyeight {
-  background-color: #00ff00;
+  background-color: #edd073;
   animation-name: tada;
   animation-duration: 0.5s;
-  font-size: 40px;
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #f9f6f2;
 }
 
 .twofiftysix {
-  background-color: #ff00ff;
+  background-color: #edcc62;
   animation-name: tada;
   animation-duration: 0.5s;
-  font-size: 40px;
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #f9f6f2;
+  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.35),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.25);
 }
 
 .fivetwelve {
-  background-color: #ffff00;
+  background-color: #edc950;
   animation-name: tada;
   animation-duration: 0.5s;
-  font-size: 40px;
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #f9f6f2;
+  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.45),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.35);
 }
 
 .tentwentyfour {
-  background-color: #00ffff;
+  background-color: #edc53f;
   animation-name: tada;
   animation-duration: 0.5s;
-  font-size: 40px;
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #f9f6f2;
+  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.45);
 }
 
 .twentyfortyeight {
   background-color: #ffffff;
   animation-name: tada;
   animation-duration: 0.5s;
-  font-size: 40px;
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }

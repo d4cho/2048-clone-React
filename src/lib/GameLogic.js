@@ -90,7 +90,7 @@ export function areTheyEqual(arr1, arr2) {
 export function randomScoreAccumulator(arr1, arr2, num) {
   let score = num;
   if (areTheyEqual(arr1, arr2)) {
-    score = num + Math.floor(Math.random() * Math.floor(10));
+    score = num + Math.floor(Math.random() * Math.floor(50));
   }
   return score;
 }

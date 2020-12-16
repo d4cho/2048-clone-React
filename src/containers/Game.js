@@ -242,15 +242,15 @@ class Game extends Component {
   render() {
     return (
       <Aux>
-        <div {...ArrowKeysReact.events} tabIndex='1'>
-          <div
-            style={{
-              display: 'flex',
-              justifyContent: 'center',
-              fontSize: '50px'
-            }}>
-            2048 clone
-          </div>
+        <div
+          {...ArrowKeysReact.events}
+          tabIndex='1'
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}>
           <Topbar
             clicked={this.newGameClickedHandler}
             score={this.state.score}
@@ -261,27 +261,20 @@ class Game extends Component {
             clicked={this.backdropClickedHandler}
           />
           <Board currentBoard={this.state.boardLayout} />
-        </div>
-        <br />
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            fontSize: '24px'
-          }}>
-          Click new game to start.
-        </div>
-        <br />
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            fontSize: '24px',
-            padding: '0 24px'
-          }}>
-          HOW TO PLAY: Use your arrow keys to move the tiles. Tiles with the
-          same number merge into one when they touch. Add them up to reach 2048!
+          <div
+            style={{
+              display: 'flex',
+              marginTop: '30px',
+              color: '#776e65',
+              fontFamily:
+                '"Clear Sans", "Helvetica Neue", "Arial", "sans-serif"',
+              fontSize: '24px',
+              width: '90%'
+            }}>
+            HOW TO PLAY: Use your arrow keys to move the tiles. Tiles with the
+            same number merge into one when they touch. Add them up to reach
+            2048!
+          </div>
         </div>
       </Aux>
     );
