@@ -167,10 +167,13 @@
 }
 
 .twentyfortyeight {
-  background-color: #ffffff;
+  background-color: #ff00f7;
   animation-name: tada;
   animation-duration: 0.5s;
   font-size: 55px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  color: #f9f6f2;
+  box-shadow: 0 0 60px 20px rgba(243, 215, 116, 0.9),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.8);
 }

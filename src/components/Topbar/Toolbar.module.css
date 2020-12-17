@@ -34,3 +34,12 @@
   font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 24px;
 }
+
+.NewGame {
+  font-size: 30px;
+  color: white;
+  background-color: #8f7a66;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}

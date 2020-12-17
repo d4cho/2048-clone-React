@@ -259,6 +259,7 @@ class Game extends Component {
             showLost={this.state.gameOver}
             show={this.state.win}
             clicked={this.backdropClickedHandler}
+            newGameClicked={this.newGameClickedHandler}
           />
           <Board currentBoard={this.state.boardLayout} />
           <div

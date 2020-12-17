@@ -16,16 +16,7 @@ const topbar = (props) => {
           <div style={{ color: '#eee4da', fontSize: '20px' }}>SCORE</div>
           <div style={{ color: 'white', fontSize: '40px' }}>{props.score}</div>
         </div>
-        <button
-          onClick={props.clicked}
-          style={{
-            fontSize: '30px',
-            color: 'white',
-            backgroundColor: '#8f7a66',
-            padding: '15px',
-            borderRadius: '5px',
-            cursor: 'pointer'
-          }}>
+        <button className={classes.NewGame} onClick={props.clicked}>
           New Game
         </button>
       </div>

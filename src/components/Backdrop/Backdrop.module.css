@@ -5,11 +5,25 @@
   z-index: 100;
   left: 0;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(223, 223, 223, 0.5);
 }
 
 .Text {
   text-align: center;
-  margin-top: 100px;
-  background-color: thistle;
+  margin-top: 400px;
+  color: #776e65;
+  font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  height: 50px;
+  line-height: 50px;
+}
+
+.Button {
+  font-size: 30px;
+  color: white;
+  background-color: #8f7a66;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
 }
